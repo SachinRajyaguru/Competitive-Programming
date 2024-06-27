@@ -24,6 +24,9 @@ Build system to directly compile and run c++ programs in sublime on linux. Moreo
 brew install gcc coreutils
 brew install --cask sublime-text
 ```
+Homebrew, a package manager for macOS, Apple Silicon, installs files to different locations depending on the operating system.
+macOS Intel: Installs files to ```/usr/local``` by default, which is already in the PATH by default. This prevents conflicts with future macOS updates.
+Apple Silicon: Installs files to ```/opt/homebrew```, but this is not in the PATH by default. Additional configuration may be required to use packages installed with Homebrew.
 
 ***This is how it looks***
 
